@@ -40,7 +40,9 @@ Installation:
    ```
 
 4. Install backend dependencies:
-
+    ```
+    cd BackEnd
+   ```
    ```
    pip install -r requirements.txt
    ```
@@ -48,7 +50,10 @@ Installation:
 Usage:
 
 1. Start the FastAPI backend:
-
+   ```
+   cd BackEnd
+   ```
+   
    ```
    uvicorn main:app --reload
    ```
