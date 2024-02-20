@@ -1,5 +1,3 @@
-Certainly! Here's the complete content for your README.md file:
-
 ```markdown
 # Weather App
 
