@@ -1,61 +1,78 @@
-```markdown
-# Weather App
+```
+Weather App
 
-## Overview
+Overview:
 
-The Weather App is a simple web application that allows users to check the weather conditions for a specific city, state, and country. It utilizes the OpenWeatherMap API to fetch real-time weather data and provides users with relevant information such as temperature, wind speed, humidity, and more.
+The Weather App is a web application that provides users with real-time weather information for a specified city, state, and country. It consists of both a frontend, built with React.js, and a backend, implemented using FastAPI. The app utilizes the OpenWeatherMap API to fetch weather data.
 
-![Weather App Screenshot](/path/to/screenshot.png)
-
-## Features
+Features:
 
 - **Search Functionality:** Users can enter the name of a city, state, and country to retrieve weather information.
-- **Real-time Data:** The app fetches data from the OpenWeatherMap API, ensuring that users receive up-to-date weather conditions.
+- **Real-time Data:** The app fetches data from the OpenWeatherMap API, ensuring users receive up-to-date weather conditions.
 - **Responsive Design:** The application is designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 
-## Getting Started
+Getting Started:
 
-### Prerequisites
+Prerequisites:
 
 - Node.js installed on your machine
+- Python installed on your machine
+- FastAPI library (install using `pip install fastapi`)
 
-### Installation
+Installation:
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/your-username/weather-app.git
    ```
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
-   ```bash
+   ```
    cd weather-app
    ```
 
-3. Install dependencies:
+3. **Install frontend dependencies:**
 
-   ```bash
+   ```
    npm install
    ```
 
-### Usage
+4. **Install backend dependencies:**
 
-1. Start the development server:
+   ```
+   pip install -r requirements.txt
+   ```
 
-   ```bash
+Usage:
+
+1. **Start the FastAPI backend:**
+
+   ```
+   uvicorn main:app --reload
+   ```
+
+2. **Start the React development server:**
+
+   ```
    npm run start
    ```
 
-2. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to use the Weather App.
+3. **Open your web browser and go to http://localhost:3000 to use the Weather App.**
 
-## Technologies Used
+Technologies Used:
 
-- React.js
-- Bootstrap
-- OpenWeatherMap API
+- **Frontend:**
+  - React.js
+  - Bootstrap
+  - OpenWeatherMap API
 
-## Contributing
+- **Backend:**
+  - FastAPI
+  - Python
+
+Contributing:
 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
@@ -64,14 +81,12 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 3. Make your changes and commit them.
 4. Submit a pull request.
 
-## License
+License:
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
-## Acknowledgments
+Acknowledgments:
 
-- Special thanks to [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API.
-- Icons by [Font Awesome](https://fontawesome.com/).
+- Special thanks to OpenWeatherMap for providing the weather data API.
+- Icons by Font Awesome.
 ```
-
-Make sure to replace "/path/to/screenshot.png" with the actual path or URL of your project's screenshot.
