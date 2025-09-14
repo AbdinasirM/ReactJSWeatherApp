@@ -44,6 +44,7 @@ function App() {
     <>
 
         <div>
+          <h4>Test auto pull</h4>
           <div>
         <SearchInput
           placeholder="City,state,country"
