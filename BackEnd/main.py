@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import requests
 import json
+import os
+
 from json import JSONEncoder
 
 class SimpleJSONEncoder(JSONEncoder):
@@ -28,7 +30,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = 'd5ffba93b768ebae63009b9d4f7b061b'
+API_KEY = os.environ.get("API_KEY")
+
 OPENWEATHERMAP_URL = 'https://api.openweathermap.org/data/2.5/weather'
 
 class WeatherRequestModel(BaseModel):
