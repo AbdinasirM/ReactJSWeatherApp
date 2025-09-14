@@ -9,6 +9,7 @@ const WeatherInfo = ({ weatherData }) => {
   }
 
   return (
+    <p>new test</p>
       <div className=" card col-md-6 d-flex justify-content-center">
         <div className="card-body">
           <h2 className="card-title text-center">{weatherData.name}</h2>
