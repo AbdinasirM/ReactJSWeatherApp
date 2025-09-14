@@ -20,6 +20,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:5173",  # Add the frontend URL where your React app is hosted
+    "https://weatherapp.ansir.online"
 ]
 
 app.add_middleware(
