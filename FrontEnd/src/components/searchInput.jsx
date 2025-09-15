@@ -24,7 +24,7 @@ const SearchInput = ({ placeholder, onClick }) => {
         type="button"
         onClick={handleClick}
       >
-        <i className="fas fa-search fa-fw danger" ></i>Search
+        <i className="fas fa-search fa-fw warning" ></i>Search
       </button>
     </div>
   );
